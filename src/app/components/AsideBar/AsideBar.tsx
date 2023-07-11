@@ -1,4 +1,4 @@
-export default async function AsideBars() {
+export default  function AsideBars() {
   return (
     <aside className="flex h-screen w-72 flex-col space-y-2 border-r-2 border-gray-200 bg-white p-2 ">
       <div className="flex  flex-col">

@@ -12,14 +12,12 @@ import {
   Avatar
 } from '@material-tailwind/react';
 
-export default function PacientesDetailsPage() {
+export default async function PacientesDetailsPage() {
   return (
-    <main className="min-h-screen w-full flex">
+    <main className="min-h-screen w-full flex h-full">
       <AsideBar />
-      <div className="m-8">
-        <TitelPage title="paciente" />
-        <CardDetailPaciente />
-      </div>
+
+      <CardDetailPaciente />
     </main>
   );
 }
